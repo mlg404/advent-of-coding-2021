@@ -17,8 +17,3 @@ console.log(`Part 1 - ${getIncreases(input)}`)
 
 const sums = input.map((value, index, array) => parseInt(value, 10) + parseInt(array[index + 1], 10) + parseInt(array[index + 2], 10))
 console.log(`Part 2 - ${getIncreases(sums)}`)
-
-// const createdStructure = input.map((inputValue) => ({ [inputValue]: [] }))
-
-// const fillStructure = (start) => createdStructure.forEach(structureElement => )
-// console.log(createdStructure)
